@@ -1,0 +1,19 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.add-clock {
+    width: fit-content;
+    background-color: #FF6663;
+    font-size: 30px;
+    color: #fffffa;
+    margin-bottom: 10px;
+}
+
+.add-clock:hover {
+    background-color: #FF4A47;
+    color: #fffffa;
+}
+
+.clocks {
+    background-color: #1e1e24;
+   justify-content: center;
+}

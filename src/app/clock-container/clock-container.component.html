@@ -1,0 +1,6 @@
+<div>
+  <button class="btn add-clock" (click)="addClock()">Add 🕒 Clock</button>
+  <div class="clocks row">
+    <app-clock *ngFor="let clock of clocks"></app-clock>
+  </div>
+</div>

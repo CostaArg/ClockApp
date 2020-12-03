@@ -1,0 +1,49 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.single-clock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  font-size: 40px;
+  color: #fffffa;
+  background-color: #383843;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.start-clock {
+  background-color: #66a182;
+  font-size: 20px;
+  color: #fffffa;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.start-clock:hover {
+  color: #fffffa;
+  background-color: #558b6e;
+}
+
+.input-time {
+  width: 6em;
+  margin-bottom: 10px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.reset-button {
+  background-color: #73628a;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fffffa;
+}
+
+.reset-button:hover {
+  color: #fffffa;
+  background-color: #645577;
+}

@@ -1,0 +1,23 @@
+<div class="single-clock">
+  <div>
+    {{ time.getHours() + "h " + time.getMinutes() + "m " + time.getSeconds() + "s" }}
+  </div>
+
+  <input
+    type="text"
+    class="input-time"
+    [(ngModel)]="inputSeconds"
+    (change)="time.setSeconds(inputSeconds)"
+    (keyup.enter)="this.turnOn = !this.turnOn; startStopTime();"
+  />
+
+  <div class="button-container">
+    <button
+      class="btn start-clock"
+      (click)="this.turnOn = !this.turnOn; startStopTime();"
+    >
+      {{ stateText }}
+    </button>
+    <button class="btn reset-button" (click)="resetTime()">Reset</button>
+  </div>
+</div>
